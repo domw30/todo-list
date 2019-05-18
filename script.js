@@ -1,7 +1,7 @@
 var todoList = {
   todos: [],
   displayTodos: function() {
-    console.log('My Todo List:');
+    console.log('My Makers Todo List:');
     for (var i = 0; i < this.todos.length; i++) {
       console.log(this.todos[i].todoText);
     }
