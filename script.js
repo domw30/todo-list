@@ -76,7 +76,7 @@ var view = {
       var todoTextWithCompletion = '';
 
       if (todo.completed === true) {
-        todoTextWithCompletion = '(✅) ' + todo.todoText;
+        todoTextWithCompletion = '(x) ' + todo.todoText;
       } else {
         todoTextWithCompletion = '( ) ' + todo.todoText;
       }

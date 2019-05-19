@@ -2,30 +2,32 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel='stylesheet' href='style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <title>Todo App</title>
   </head>
-  <body>
-    <h1>Makers Academy Todo List</h1>
-
+  <body class='style'>
+    <h1>Todo List</h1>
+    <div class='all'>
     <div>
       <button onclick="handlers.toggleAll()">Toggle All</button>
     </div>
 
     <div>
       <button onclick="handlers.addTodos()">Add</button>
-      <input id="addTodoTextInput" type="text">
+      <input id="addTodoTextInput" type="text" placeholder='Add Todo'>
     </div>
 
     <div>
       <button onclick="handlers.changeTodos()">Change Todo</button>
       <input id="changeTodoPositionInput" type="number">
-      <input id="changeTodoTextInput" type="text">
+      <input id="changeTodoTextInput" type="text" placeholder='Change Todo'>
     </div>
 
     <div>
       <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
       <input id="toggleCompletedPositionInput" type="number">
+    </div>
     </div>
 
     <ul>
